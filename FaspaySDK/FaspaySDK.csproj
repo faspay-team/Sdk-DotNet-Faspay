@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ReleaseVersion>0.2</ReleaseVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RestSharp" Version="106.6.9" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="System.Json" Version="4.5.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Entity\FaspayUser.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entity\Err\" />
+    <Folder Include="Credit\" />
+    <Folder Include="Credit\Entity\" />
+    <Folder Include="Credit\Conf\" />
+    <Folder Include="Credit\Rest\" />
+    <Folder Include="Credit\Service\" />
+    <Folder Include="Credit\Entity\Capture\" />
+    <Folder Include="Credit\Entity\Inquiry\" />
+    <Folder Include="Credit\Entity\Payment\" />
+    <Folder Include="Credit\Entity\Payment\Wrapper\" />
+    <Folder Include="Credit\Entity\Refund\" />
+    <Folder Include="Credit\Entity\Void\" />
+    <Folder Include="Entity\Notify\" />
+  </ItemGroup>
+</Project>
