@@ -46,6 +46,7 @@ namespace FaspayApi.Entity
         public List<FaspayPayment> item { get; set; }
         public string reserve1 { get; set; }
         public string reserve2 { get; set; }
+        public string trx_source { get; set; }
         public string signature { get; set; }
         public FaspayPaymentRequest()
         {

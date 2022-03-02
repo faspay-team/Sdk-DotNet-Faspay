@@ -73,6 +73,7 @@ namespace FaspayApi.Entity
             item = (billing.item);
             reserve1 = ("");
             reserve2 = ("");
+            trx_source = ("DotNet SDK");
             request = ("");
             pay_type = billing.pay_type;
 
